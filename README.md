@@ -21,6 +21,29 @@ Udacity Android Developer Nanodegree Project
   - also allow users to mark a movie as a favorite in the details view by tapping a button(star).
   - create a database to store the names and ids of the user's favorite movies (and optionally, the rest of the information needed to         display their favorites collection while offline).
   - modify the existing sorting criteria for the main view to include an additional pivot to show their favorites collection.
+  ## Screens
+
+![screen](../master/art/phone-movies.png)
+
+![screen](../master/art/phone-details.png)
+
+![screen](../master/art/tablet-port.png)
+
+![screen](../master/art/tablet-land.png)
+
+## Libraries
+
+* [ButterKnife](https://github.com/JakeWharton/butterknife)
+* [Dagger](https://github.com/square/dagger)
+* [Retrofit](https://github.com/square/retrofit)
+* [SQLBrite](https://github.com/square/sqlbrite)
+* [RxJava](https://github.com/ReactiveX/RxJava)
+* [RxAndroid](https://github.com/ReactiveX/RxAndroid)
+* [Glide](https://github.com/bumptech/glide)
+* [GlidePalette](https://github.com/florent37/GlidePalette)
+* [Android-ObservableScrollView](https://github.com/ksoichiro/Android-ObservableScrollView)
+* [Gradle Retrolambda Plugin](https://github.com/evant/gradle-retrolambda)
+  
 ## Why this Project?
 To become an Android developer, you must know how to bring particular mobile experiences to life. Specifically, you need to know how to build clean and compelling user interfaces (UIs), fetch data from network services, and optimize the experience for various mobile devices. You will hone these fundamental skills in this project.
 
