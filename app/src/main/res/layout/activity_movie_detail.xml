@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/scroll_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingEnd="@dimen/pad_end_start"
+    android:paddingStart="@dimen/pad_end_start"
+    android:paddingTop="@dimen/pad_top">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/movie_poster"
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/image_height"
+            android:contentDescription="@string/movie_poster"
+            android:adjustViewBounds="false"
+            android:src="@mipmap/ic_launcher" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/movie_title"
+                style="@style/movie_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/movie_sample_name"/>
+
+            <TextView
+                android:id="@+id/release_head"
+                style="@style/head_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/movie_title"
+                android:text="@string/release_title"/>
+
+            <TextView
+                android:id="@+id/release_date"
+                style="@style/head_style"
+                android:layout_toRightOf="@id/release_head"
+                android:layout_below="@id/movie_title"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/left_right_margin"
+                android:layout_height="wrap_content"
+                android:text="@string/release_date" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/rating_head"
+                style="@style/head_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rating_title"/>
+
+            <ImageView
+                android:id="@+id/rating_star"
+                android:src="@drawable/image_burned"
+                android:layout_toRightOf="@id/rating_head"
+                android:layout_marginLeft="@dimen/star_align"
+                android:layout_width="@dimen/normal_dimen"
+                android:layout_height="@dimen/normal_dimen" />
+
+            <TextView
+                android:id="@+id/rating_value"
+                style="@style/head_style"
+                android:layout_toRightOf="@id/rating_star"
+                android:layout_marginLeft="@dimen/rating_val_align"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rating_value"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:contentDescription="@string/favorite_icon_image"
+                android:id="@+id/favIcon"
+                android:layout_width="@dimen/fav_dimen"
+                android:layout_height="@dimen/fav_dimen"
+                android:background="@drawable/fav_empty"
+                android:layout_marginTop="@dimen/fav_top_align"
+                android:layout_marginLeft="@dimen/fav_icon_margin" />
+
+            <TextView
+                android:id="@+id/tVFav"
+                android:layout_toRightOf="@id/favIcon"
+                style="@style/head_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fav_top_align"
+                android:layout_marginLeft="@dimen/fav_right_align"
+                android:text="@string/add_to_favorites" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/other_head_style"
+            android:text="@string/synopsis"/>
+
+        <TextView
+            android:id="@+id/synopsis_text"
+            style="@style/text_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/synopsis_text"/>
+
+        <TextView
+            android:id="@+id/tVTrailer"
+            style="@style/other_head_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trailers" />
+
+        <LinearLayout
+            android:id="@+id/trailerLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/trailerRV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tVReviews"
+            style="@style/other_head_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/other_margin"
+            android:text="@string/reviews" />
+
+        <LinearLayout
+            android:id="@+id/reviewsLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/reviewsRV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

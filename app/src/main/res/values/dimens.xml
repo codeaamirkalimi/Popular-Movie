@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_top_height">30dp</dimen>
+    <dimen name="btn_top_height">65dp</dimen>
+    <dimen name="fav_icon_margin">30dp</dimen>
+    <dimen name="star_align">65dp</dimen>
+    <dimen name="rating_val_align">5dp</dimen>
+    <dimen name="left_right_margin">16dp</dimen>
+    <dimen name="fav_top_align">7dp</dimen>
+    <dimen name="fav_right_align">15dp</dimen>
+    <dimen name="movie_name_margin">12dp</dimen>
+    <dimen name="other_margin">10dp</dimen>
+    <dimen name="dp_10_margin">10dp</dimen>
+    <dimen name="dp_20_margin">20dp</dimen>
+    <dimen name="ref_msg_btn">16sp</dimen>
+    <dimen name="text_size">25sp</dimen>
+    <dimen name="progress_dimen">40dp</dimen>
+    <dimen name="pad_end_start">14dp</dimen>
+    <dimen name="pad_top">10dp</dimen>
+    <dimen name="normal_dimen">16sp</dimen>
+    <dimen name="synopsis_head_dimen">20sp</dimen>
+    <dimen name="synopsis_head">15dp</dimen>
+    <dimen name="image_height">250dp</dimen>
+    <dimen name="image_width">275dp</dimen>
+    <dimen name="frame_height">200dp</dimen>
+    <dimen name="fav_dimen">30dp</dimen>
+</resources>

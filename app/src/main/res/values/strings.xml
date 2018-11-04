@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MatineePrimeTwo</string>
+    <string name="author">Author : </string>
+    <string name="sort_by_popular">Sort By Popular</string>
+    <string name="sort_by_ratings">Sort By Ratings</string>
+    <string name="my_favourites">My Favourites</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="error_msg">An Error occurred! Please Try Again</string>
+    <string name="reload_app">REFRESH</string>
+    <string name="same_movie">A movie with same details already exists.</string>
+    <string name="added_fav">Added to favorites</string>
+    <string name="removed_fav">Removed from favorites</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="favorite_icon_image">Favorite Icon Image</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="trailers">Trailers :</string>
+    <string name="trailer_item">Trailer Item</string>
+    <string name="reviews">Reviews :</string>
+    <string name="movie_sample_name">Anabelle: Creation</string>
+    <string name="release_title">Release Date :   </string>
+    <string name="rating_title">Rating :   </string>
+    <string name="release_date">4th August 2017</string>
+    <string name="rating_value">6.8</string>
+    <string name="synopsis">Synopsis :</string>
+    <string name="error_response">No Data received to sort</string>
+    <string name="synopsis_text">Former toy maker Sam Mullins and his wife, Esther, are happy to welcome a nun and six orphaned girls into their California farmhouse. Years earlier, the couple\'s 7-year-old daughter Annabelle died in a tragic car accident. Terror soon strikes when one child sneaks into a forbidden room and finds a seemingly innocent doll that appears to have a life of its own.</string>
+</resources>
+

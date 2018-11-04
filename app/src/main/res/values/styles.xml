@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/First</item>
+        <item name="colorPrimaryDark">@color/Second</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="movie_name">
+        <item name="android:layout_marginBottom">@dimen/movie_name_margin</item>
+        <item name="android:textColor">@color/whiteFont</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="head_style">
+        <item name="android:textSize">@dimen/normal_dimen</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/other_margin</item>
+        <item name="android:textColor">@color/whiteFont</item>
+    </style>
+
+    <style name="other_head_style">
+        <item name="android:layout_marginTop">@dimen/synopsis_head</item>
+        <item name="android:textColor">@color/whiteFont</item>
+        <item name="android:textSize">@dimen/synopsis_head_dimen</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="text_value">
+        <item name="android:textSize">@dimen/normal_dimen</item>
+        <item name="android:textColor">@color/greyFont</item>
+        <item name="android:layout_marginTop">@dimen/dp_10_margin</item>
+        <item name="android:layout_marginBottom">@dimen/dp_10_margin</item>
+
+    </style>
+</resources>
